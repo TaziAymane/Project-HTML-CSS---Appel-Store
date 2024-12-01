@@ -1,0 +1,87 @@
+/* body */
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+/* header*/
+header a{
+    margin-top: 20px;
+    margin: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+/*Logo*/
+header a img{
+    width: 60px;
+    margin-left: 90px;
+}
+/*Menu*/
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-weight: 700;
+}
+header a:hover{
+    color: white;
+    font-weight:900;
+    transition-duration: 0.7s;
+}
+/*content*/
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+/*Big img*/
+div .image img{
+    width: 90%;
+    
+}
+/* text*/
+div .text{
+    color: white;
+    margin-top: 200px;
+    margin-left: 90px;
+}
+div .text h1{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+div .text p{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+/* Button*/
+.content button{
+    background-color: white;
+    color: black;
+    padding: 8px 80px;
+    border-radius: 40px;
+    font-weight: µ700;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.content button:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 0.7s;
+    border: white;
+    font-weight: 700;
+}
+/*small image*/
+div .smallimage{
+   position: absolute;
+   bottom: 0;
+   left: 30%;
+}
+div .smallimage img{
+    width: 70px;
+}
